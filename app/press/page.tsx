@@ -5,7 +5,7 @@ export default function PressPage() {
     <div className="mx-auto max-w-5xl px-4 py-14 md:px-6">
       <h1 className="text-3xl font-bold text-white md:text-5xl">Press</h1>
       <p className="mt-4 max-w-3xl text-slate-300">
-        Selected external media coverage featuring Mazin Lab technology, scientific programs, and deployment outcomes.
+        Selected external media coverage featuring Quantum Sensors Lab technology, scientific programs, and deployment outcomes.
       </p>
 
       <div className="mt-8 space-y-3">

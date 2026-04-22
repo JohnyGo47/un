@@ -22,8 +22,8 @@ export default function FacilitiesPage() {
         <header>
           <h1 className="text-3xl font-bold text-white md:text-5xl">Facilities</h1>
           <p className="mt-4 max-w-3xl text-slate-300">
-            Our Block 9 and Broida Hall aligned infrastructure supports full instrument lifecycles: concept,
-            fabrication, cryogenic integration, electronics validation, and on-sky deployment readiness.
+            Our specialized infrastructure supports full instrument lifecycles: concept development,
+            high-precision fabrication, cryogenic integration, and quantum measurement validation.
           </p>
         </header>
         {facilities.map((room) => (

@@ -7,9 +7,9 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"], display: "swap" });
 
 export const metadata: Metadata = {
-  title: "Mazin Lab | Nazarbayev University",
+  title: "Quantum Sensors Lab | Nazarbayev University",
   description:
-    "Detecting New Worlds, One Photon at a Time. Advanced superconducting sensors and instruments for astronomy, bioimaging, and quantum information."
+    "We develop cryogenic measurement platforms for exploring 2D materials, superconducting device physics, and biochip integration."
 };
 
 export default function RootLayout({

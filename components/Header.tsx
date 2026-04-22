@@ -25,15 +25,14 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed left-0 right-0 top-0 z-50 border-b transition-all duration-300 ${
-        scrolled
-          ? "border-slate-800 bg-slate-950/95 backdrop-blur"
-          : "border-transparent bg-transparent"
-      }`}
+      className={`fixed left-0 right-0 top-0 z-50 border-b transition-all duration-300 ${scrolled
+        ? "border-slate-800 bg-slate-950/95 backdrop-blur"
+        : "border-transparent bg-transparent"
+        }`}
     >
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-4 md:px-6">
         <Link href="/" className="text-lg font-extrabold tracking-[0.2em] text-white">
-          MAZIN LAB
+          QUANTUM SENSORS LAB
         </Link>
 
         <nav className="hidden items-center gap-1 lg:flex">
@@ -77,6 +76,12 @@ export default function Header() {
           <Link className="rounded-md px-3 py-2 text-sm text-slate-200 hover:bg-slate-800" href="/projects">
             Projects
           </Link>
+          <Link className="rounded-md px-3 py-2 text-sm text-slate-200 hover:bg-slate-800" href="/publications">
+            Publications
+          </Link>
+          <Link className="rounded-md px-3 py-2 text-sm text-slate-200 hover:bg-slate-800" href="/seminars">
+            Seminars
+          </Link>
           <Link className="rounded-md px-3 py-2 text-sm text-slate-200 hover:bg-slate-800" href="/press">
             Press
           </Link>
@@ -107,6 +112,8 @@ export default function Header() {
             <Link onClick={() => setMobileOpen(false)} className="rounded-md px-3 py-2 text-slate-200 hover:bg-slate-800" href="/people">People</Link>
             <Link onClick={() => setMobileOpen(false)} className="rounded-md px-3 py-2 text-slate-200 hover:bg-slate-800" href="/news">News</Link>
             <Link onClick={() => setMobileOpen(false)} className="rounded-md px-3 py-2 text-slate-200 hover:bg-slate-800" href="/projects">Projects</Link>
+            <Link onClick={() => setMobileOpen(false)} className="rounded-md px-3 py-2 text-slate-200 hover:bg-slate-800" href="/publications">Publications</Link>
+            <Link onClick={() => setMobileOpen(false)} className="rounded-md px-3 py-2 text-slate-200 hover:bg-slate-800" href="/seminars">Seminars</Link>
             <Link onClick={() => setMobileOpen(false)} className="rounded-md px-3 py-2 text-slate-200 hover:bg-slate-800" href="/press">Press</Link>
           </div>
         </div>

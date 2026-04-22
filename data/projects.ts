@@ -2,31 +2,31 @@ import { Project } from "@/types";
 
 export const projects: Project[] = [
   {
-    id: "exoplanet-direct-imaging",
-    title: "Exoplanet Direct Imaging",
-    image: "https://placehold.co/600x360/0f172a/e2e8f0?text=Exoplanet+Direct+Imaging",
+    id: "2d-materials",
+    title: "2D Materials",
+    image: "https://placehold.co/800x450/0f172a/38bdf8?text=2D+Materials+Research",
     description:
-      "Developing high-contrast MKID imaging pipelines to directly detect and spectrally characterize faint exoplanet companions near bright host stars."
+      "Researching crystalline solids with planar electron confinement, focusing on quantum mechanical effects in monolayer crystals and van der Waals heterostructures like graphene and transition metal dichalcogenides (TMDs)."
   },
   {
-    id: "cosmic-xray-background",
-    title: "Cosmic X-Ray Background",
-    image: "https://placehold.co/600x360/111827/e5e7eb?text=Cosmic+X-Ray+Background",
+    id: "mkids",
+    title: "MKIDs",
+    image: "https://placehold.co/800x450/0f172a/22d3ee?text=MKID+Detector+Technology",
     description:
-      "Designing detector concepts and calibration frameworks that improve sensitivity to diffuse high-energy astrophysical backgrounds across complex fields."
+      "Developing Microwave Kinetic Inductance Detectors (MKIDs), superconducting photon detectors operating near 0.1 K. These devices provide energy-resolving, photon-counting excellence with massive frequency-domain multiplexing capabilities."
   },
   {
-    id: "quantum-sensor-development",
-    title: "Quantum Sensor Development",
-    image: "https://placehold.co/600x360/1e293b/f8fafc?text=Quantum+Sensor+Development",
+    id: "microfluidics",
+    title: "Microfluidics",
+    image: "https://placehold.co/800x450/0f172a/06b6d4?text=Acoustofluidic+Systems",
     description:
-      "Translating superconducting detector engineering into quantum information sensing platforms with ultra-low noise, high fidelity, and scalable multiplexed readout."
+      "Engineering thermally managed acoustofluidic devices using standing surface acoustic waves (SSAW). Our research focuses on the high-precision, biocompatible manipulation and sorting of nanoparticles and biological cells."
   },
   {
-    id: "bioimaging-mkids",
-    title: "Bioimaging with MKIDs",
-    image: "https://placehold.co/600x360/0b1120/e2e8f0?text=Bioimaging+MKIDs",
+    id: "superconducting-devices",
+    title: "Superconducting Devices",
+    image: "https://placehold.co/800x450/0f172a/0ea5e9?text=Superconducting+Heterostructures",
     description:
-      "Applying photon-counting detector technology to biological imaging modalities requiring precise timing, spectral discrimination, and low-light sensitivity."
+      "Studying thin-film superconducting heterostructures (TiN/HZO) with integrated ferroelectric control. We aim to achieve electrically switchable superconductivity for next-generation non-volatile cryogenic memory and qubits."
   }
 ];

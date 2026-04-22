@@ -2,67 +2,113 @@ import { Person } from "@/types";
 
 export const people: Person[] = [
   {
-    id: "ben-mazin",
-    name: "Ben Mazin",
+    id: "alexander-tikhonov",
+    name: "Alexander Tikhonov",
     role: "Professor, Principal Investigator",
-    email: "info@nu.edu.kz",
-    category: "Faculty & Staff",
-    image: "https://placehold.co/320x320/0f172a/e2e8f0?text=BM"
+    email: "atikhonov@nu.edu.kz",
+    category: "Principal Investigator",
+    image: "https://placehold.co/320x320/0f172a/e2e8f0?text=AT",
+    bio: "Leading the Quantum Sensors Lab at Nazarbayev University, Professor Tikhonov specializes in cryogenic instrumentation and superconducting detector development."
   },
   {
-    id: "sarah-kim",
-    name: "Sarah Kim",
-    role: "Research Engineer, Cryogenic Systems",
-    email: "info@nu.edu.kz",
-    category: "Faculty & Staff",
-    image: "https://placehold.co/320x320/111827/e5e7eb?text=SK"
+    id: "alikhan-ibragim",
+    name: "Alikhan Ibragim",
+    role: "Research Staff",
+    email: "alikhan.ibragim@nu.edu.kz",
+    category: "Research Staff",
+    image: "/people/Andrei Megalinskii.png",
+    bio: "Focuses on the implementation of advanced materials for quantum sensing applications."
   },
   {
-    id: "aled-cuda",
-    name: "Aled Cuda",
-    role: "PhD Candidate, Detector Physics",
-    email: "info@nu.edu.kz",
-    category: "Graduate Students",
-    image: "https://placehold.co/320x320/1e293b/f8fafc?text=AC"
+    id: "daniya-sabyrgali",
+    name: "Daniya Sabyrgali",
+    role: "PhD Candidate",
+    email: "daniya.sabyrgali@nu.edu.kz",
+    category: "PhD Students",
+    image: "https://placehold.co/320x320/1e293b/f8fafc?text=DS",
+    bio: "Researching millikelvin temperature physics and 2D material characterization."
   },
   {
-    id: "diana-nur",
-    name: "Diana Nur",
-    role: "PhD Candidate, Exoplanet Instrumentation",
-    email: "info@nu.edu.kz",
-    category: "Graduate Students",
-    image: "https://placehold.co/320x320/0b1120/e2e8f0?text=DN"
+    id: "nursultan-suleimenov",
+    name: "Nursultan Suleimenov",
+    role: "PhD Candidate",
+    email: "nursultan.suleimenov@nu.edu.kz",
+    category: "PhD Students",
+    image: "/people/Viktor Makhrinov.jpeg",
+    bio: "Specializes in superconducting device fabrication and low-noise readout systems."
   },
   {
-    id: "leo-ivanov",
-    name: "Leo Ivanov",
-    role: "Postdoctoral Scholar, High-Contrast Imaging",
-    email: "info@nu.edu.kz",
-    category: "Postdocs",
-    image: "https://placehold.co/320x320/172554/e2e8f0?text=LI"
+    id: "aruzhan-zhanat",
+    name: "Aruzhan Zhanat",
+    role: "Master Student",
+    email: "aruzhan.zhanat@nu.edu.kz",
+    category: "Master Students",
+    image: "https://placehold.co/320x320/0b1120/e2e8f0?text=AZ",
+    bio: "Working on cryogenic system integration and data analysis for biochip sensors."
   },
   {
-    id: "maya-rossi",
-    name: "Maya Rossi",
-    role: "Postdoctoral Scholar, Quantum Sensors",
-    email: "info@nu.edu.kz",
-    category: "Postdocs",
-    image: "https://placehold.co/320x320/1f2937/f1f5f9?text=MR"
+    id: "leila-akisheva",
+    name: "Leila Akisheva",
+    role: "Undergraduate Researcher",
+    email: "leila.akisheva@nu.edu.kz",
+    category: "Undergraduate Students",
+    image: "/people/Leila Akisheva.jpeg",
+    degree: "B.S. Physics",
+    institution: "Nazarbayev University",
+    department: "Physics Department",
+    researchArea: "Superconducting devices",
+    internships: [
+      "Lawrence Berkeley National Laboratory, USA, May 2024 - Aug 2024",
+      "National Institute for Materials Science | NIMS, Japan, May 2025 - Aug 2025"
+    ],
+    socials: {
+      linkedin: "https://www.linkedin.com/in/leila-akisheva/"
+    },
+    bio: "Passionate about exploring science at the edge of what is possible, Leila focuses on superconducting devices and cryogenic measurements."
   },
   {
-    id: "timur-askar",
-    name: "Timur Askar",
-    role: "Former Research Engineer",
-    email: "info@nu.edu.kz",
+    id: "aziz-kenzhaliyev",
+    name: "Aziz Kenzhaliyev",
+    role: "Undergraduate Student",
+    email: "aziz.ken@nu.edu.kz",
+    category: "Undergraduate Students",
+    image: "https://placehold.co/320x320/1f2937/f1f5f9?text=AK",
+    bio: "Assisting in the characterization of new superconducting alloys and lab maintenance."
+  },
+  {
+    id: "inzhu-kenesbekova",
+    name: "Inzhu Kenesbekova",
+    role: "Alumna",
+    email: "inzhu.k@nu.edu.kz",
     category: "Alumni",
-    image: "https://placehold.co/320x320/334155/f8fafc?text=TA"
+    image: "https://placehold.co/320x320/334155/f8fafc?text=IK",
+    bio: "Former research intern with focus on astrophysics and cryogenic detector testing."
   },
   {
-    id: "elena-yu",
-    name: "Elena Yu",
-    role: "Former Graduate Researcher",
-    email: "info@nu.edu.kz",
+    id: "temirlan-toktarbayev",
+    name: "Temirlan Toktarbayev",
+    role: "Alumnus",
+    email: "temirlan.t@nu.edu.kz",
     category: "Alumni",
-    image: "https://placehold.co/320x320/0f172a/e2e8f0?text=EY"
+    image: "https://placehold.co/320x320/0f172a/e2e8f0?text=TT",
+    bio: "Graduated with honors, focusing on superconducting device physics during his time at the lab."
+  },
+  {
+    id: "lbnl-team",
+    name: "LBNL Team",
+    role: "Main Research Partner",
+    email: "contact@lbl.gov",
+    category: "Collaborators",
+    image: "https://placehold.co/320x320/1e293b/f8fafc?text=LBNL",
+    bio: "Primary collaborators at Lawrence Berkeley National Laboratory working on joint cryogenic projects."
+  },
+  {
+    id: "nims-staff",
+    name: "NIMS Staff",
+    role: "International Partner",
+    email: "contact@nims.go.jp",
+    category: "Collaborators",
+    image: "https://placehold.co/320x320/0b1120/e2e8f0?text=NIMS",
+    bio: "Collaborators at the National Institute for Materials Science in Japan specializing in advanced materials."
   }
 ];

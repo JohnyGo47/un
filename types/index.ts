@@ -14,10 +14,13 @@ export type Instrument = {
 };
 
 export type PersonCategory =
-  | "Faculty & Staff"
-  | "Graduate Students"
-  | "Postdocs"
-  | "Alumni";
+  | "Principal Investigator"
+  | "Research Staff"
+  | "PhD Students"
+  | "Master Students"
+  | "Undergraduate Students"
+  | "Alumni"
+  | "Collaborators";
 
 export type Person = {
   id: string;
@@ -26,6 +29,13 @@ export type Person = {
   email: string;
   category: PersonCategory;
   image: string;
+  degree?: string;
+  institution?: string;
+  department?: string;
+  researchArea?: string;
+  internships?: string[];
+  socials?: { linkedin?: string };
+  bio?: string;
 };
 
 export type NewsItem = {
@@ -55,4 +65,17 @@ export type FacilitySection = {
   title: string;
   image: string;
   body: string;
+};
+
+export type Publication = {
+  id: string;
+  title: string;
+  authors: string;
+  journal: string;
+  volume?: string;
+  number?: string;
+  date: string;
+  year: number;
+  doi?: string;
+  pdfUrl?: string;
 };
