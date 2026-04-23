@@ -8,7 +8,7 @@ export default function Footer() {
           <div>
             <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-white">About</h3>
             <p className="text-sm leading-relaxed text-slate-300">
-              Mazin Lab. Pushing the limits of astronomical observation and advanced detector technology.
+              Quantum Sensors Lab. Pushing the boundaries of what detectors and quantum sensors can achieve.
             </p>
             <a
               className="mt-4 inline-block text-sm font-medium text-cyan-300 hover:text-cyan-200"
@@ -33,8 +33,8 @@ export default function Footer() {
           <div>
             <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-white">Contact Info</h3>
             <ul className="space-y-2 text-sm text-slate-300">
-              <li>Office: Block 9, SEDS</li>
-              <li>Lab: Block 9, Advanced Physics Lab</li>
+              <li>Office: 7e.537 (7 Block), Nazarbayev University</li>
+              <li>Lab: ПЭ026 (C4), Nazarbayev University</li>
               <li>Phone: +7 (7172) 70 66 88</li>
               <li>
                 Email:{" "}
@@ -55,7 +55,7 @@ export default function Footer() {
               GitHub
             </a>
           </div>
-          <p>© 2026 Mazin Lab, Nazarbayev University. All rights reserved.</p>
+          <p>© 2026 Quantum Sensors Lab, Nazarbayev University. All rights reserved.</p>
           <span className="w-fit rounded-full border border-slate-700 px-3 py-1 text-xs text-slate-300">
             Built with Next.js
           </span>

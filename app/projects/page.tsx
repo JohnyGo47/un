@@ -5,7 +5,7 @@ export default function ProjectsPage() {
     <div className="mx-auto max-w-7xl px-4 py-14 md:px-6">
       <h1 className="text-3xl font-bold text-white md:text-5xl">Projects</h1>
       <p className="mt-4 max-w-3xl text-slate-300">
-        Ongoing Mazin Lab initiatives connecting instrumentation, astrophysics, bioimaging, and quantum technology.
+        Ongoing Quantum Sensors Lab initiatives connecting instrumentation, astrophysics, bioimaging, and quantum technology.
       </p>
 
       <div className="mt-8 grid gap-6 md:grid-cols-2">

@@ -35,5 +35,12 @@ export const news: NewsItem[] = [
     title: "Quantum Sensor Collaboration Expanded",
     excerpt:
       "A new cross-institutional partnership was launched to apply MKID design principles to quantum information sensing and low-noise readout architectures."
+  },
+  {
+    id: "2023-03-cryogenic",
+    date: "March 2023",
+    title: "Cryogenic Infrastructure Milestone",
+    excerpt:
+      "The lab successfully commissioned a new dilution refrigerator system, expanding our capacity for millikelvin characterization of superconducting biochips."
   }
 ];
